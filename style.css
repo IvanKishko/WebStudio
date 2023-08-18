@@ -228,6 +228,15 @@ body {
   letter-spacing: 0.48px;
   justify-content: center;
 }
+.team-list-item {
+  width: 270px;
+  height: 368px;
+  background: #fff;
+  margin-top: 50px;
+  margin-right: 25px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
 .team-title {
   color: #212121;
   text-align: center;
@@ -248,14 +257,6 @@ body {
   text-align: center;
   font-weight: 400;
 }
-.team-list-item {
-  width: 270px;
-  height: 368px;
-  background: #fff;
-  margin-top: 50px;
-  margin-right: 25px;
-}
-
 /** portfolio styles: **/
 .products-list {
   margin-top: 94px;
@@ -300,6 +301,10 @@ body {
   background: #fff;
   margin-right: 20px;
   margin-bottom: 30px;
+}
+.selling-list-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 .selling-list-item:nth-child(-n + 3) {
   margin-top: 50px;
