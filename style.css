@@ -90,7 +90,7 @@ body {
 }
 /** index styles **/
 .banner {
-  background-color: #2f303a;
+  background-image: url(img/hero.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -299,7 +299,7 @@ body {
   height: 404px;
   border: 1px solid #eee;
   background: #fff;
-  margin-right: 20px;
+  margin-right: 30px;
   margin-bottom: 30px;
 }
 .selling-list-item:hover {
@@ -308,6 +308,9 @@ body {
 }
 .selling-list-item:nth-child(-n + 3) {
   margin-top: 50px;
+}
+.selling-list-item:nth-child(3n) {
+  margin-right: 0px;
 }
 .selling-list-item:nth-child(n + 8) {
   margin-bottom: 94px;
