@@ -57,18 +57,16 @@ body {
   color: #2196f3;
 }
 .navigation-list-portfolio {
-  line-height: normal;
+  color: #212121;
   margin-top: 24px;
   margin-right: 50px;
 }
 .navigation-list-portfolio:hover {
   color: #2196f3;
-  line-height: normal;
 }
 .navigation-list-contacts {
   color: #212121;
-  line-height: normal;
-  margin-right: 344px;
+  margin-right: 318px;
 }
 .navigation-list-contacts:hover {
   color: #2196f3;
@@ -76,17 +74,27 @@ body {
 .contact-list {
   display: flex;
 }
+.contact-list-item {
+  display: flex;
+}
+.contact-list-mail-envelope {
+  fill: #757575;
+}
 .contact-list a {
   color: #757575;
 }
 .contact-list-mail {
-  margin-right: 50px;
+  margin-right: 30px;
+}
+.contact-list-tel-phone {
+  margin-right: 10px;
 }
 .contact-list-mail:hover {
   color: #2196f3;
 }
 .contact-list-tel:hover {
   color: #2196f3;
+  fill: #2196f3;
 }
 /** index styles **/
 .banner {
@@ -153,7 +161,7 @@ body {
   width: 100%;
   height: 17vh;
   display: block;
-  background-image: url(img/antenna\ 1.svg);
+  background-image: url(img/antenna.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
@@ -165,7 +173,7 @@ body {
   width: 100%;
   height: 17vh;
   display: block;
-  background-image: url(img/clock\ 1.svg);
+  background-image: url(img/clock.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
@@ -177,7 +185,7 @@ body {
   width: 100%;
   height: 17vh;
   display: block;
-  background-image: url(img/diagram\ 1.svg);
+  background-image: url(img/diagram.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
@@ -189,7 +197,7 @@ body {
   width: 100%;
   height: 17vh;
   display: block;
-  background-image: url(img/astronaut\ 1.svg);
+  background-image: url(img/astronaut.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-color: #f5f4fa;
@@ -230,12 +238,13 @@ body {
 }
 .team-list-item {
   width: 270px;
-  height: 368px;
+  height: 428px;
   background: #fff;
   margin-top: 50px;
   margin-right: 25px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 94px;
 }
 .team-title {
   color: #212121;
@@ -256,6 +265,54 @@ body {
   color: #757575;
   text-align: center;
   font-weight: 400;
+}
+.team-list-member-div {
+  display: flex;
+  margin-top: 16px;
+  column-gap: 10px;
+}
+.team-list-member-div-img {
+  margin-left: 32px;
+  justify-content: center;
+  border-radius: 0px 0px 4px 4px;
+}
+.team-list-member-div-img:hover {
+  color: #2196f3;
+}
+.logos {
+  background: #fff;
+}
+.logos-title {
+  margin-top: 94px;
+  color: #212121;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+}
+.logos-list {
+  padding-top: 66px;
+  column-gap: 30px;
+  display: flex;
+  justify-content: center;
+}
+.logos-list-item {
+  padding-top: 50px;
+  margin-bottom: 94px;
+}
+.logos-list-item {
+  border-radius: 4px;
+  border: 1px solid #afb1b8;
+  cursor: pointer;
+  width: 170px;
+  height: 92px;
+}
+.logos-list-item-img {
+  padding-bottom: 16px;
+}
+.logos-list-item-img:hover {
+  fill: #2196f3;
 }
 /** portfolio styles: **/
 .products-list {
@@ -381,4 +438,13 @@ body {
   color: rgba(255, 255, 255, 0.6);
   font-size: 14px;
   font-family: "Roboto";
+}
+
+.socials-title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
 }
