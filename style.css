@@ -100,6 +100,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 .banner-title {
   width: 600px;
@@ -183,18 +185,6 @@ body {
   background: #f5f4fa;
   width: 100%;
 }
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
-/*  */
 .team {
   margin-top: 94px;
   padding-top: 94px;
@@ -240,15 +230,20 @@ body {
   justify-content: center;
   align-items: center;
   margin-top: 16px;
+  column-gap: 10px;
 }
 .team-list-member-list-item {
   width: 44px;
   height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
   fill: #afb1b8;
 }
 .team-list-member-list-item:hover {
   fill: #ffffff;
-  background-image: url(img/Ellipse.png);
+  background-color: #2196f3;
 }
 .logos {
   display: flex;
@@ -379,14 +374,13 @@ body {
   letter-spacing: 0.42px;
 }
 .footer-container {
-  column-gap: 70px;
   display: flex;
-}
-.footer-logo-padding {
   padding-top: 60px;
 }
+.footer-div {
+  margin-right: 70px;
+}
 .footer-logo-span {
-  margin-top: 60px;
   color: #2196f3;
   font-size: 26px;
   font-family: "Raleway";
@@ -394,7 +388,6 @@ body {
   letter-spacing: 0.78px;
 }
 .footer-logo {
-  margin-top: 60px;
   color: #ffffff;
   font-size: 26px;
   font-family: "Raleway";
@@ -406,6 +399,7 @@ body {
   height: 81px;
   margin-top: 20px;
   margin-bottom: 60px;
+  column-gap: 10px;
 }
 .footer-address {
   margin-bottom: 9px;
@@ -423,8 +417,14 @@ body {
   font-family: "Roboto";
 }
 .socials {
+  width: 206px;
+  height: 80px;
+}
+.socials-list {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
 }
 .socials-title {
   color: #fff;
@@ -433,22 +433,20 @@ body {
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
-}
-.socials-list {
-  column-gap: 10px;
-  display: flex;
+  margin-bottom: 20px;
 }
 .socials-list-item {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 44px;
-  height: 44px;
-  background-image: url(img/ellipse-footer.png);
 }
 .socials-list-item:hover {
-  background-image: url(img/ellipse.png);
   cursor: pointer;
+  background-color: #2196f3;
 }
 
 .socials-list-item-svg {
