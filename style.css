@@ -77,18 +77,17 @@ body {
 .contact-list-item {
   display: flex;
 }
-.contact-list-item:hover {
-  fill: #2196f3;
+.contact-list-item:hover a {
   color: #2196f3;
+}
+.contact-list-item:hover svg {
+  fill: #2196f3;
 }
 .contact-list-item-svg {
   margin-right: 10px;
 }
 .contact-list a {
   color: #757575;
-}
-.contact-list a:hover {
-  color: #2196f3;
 }
 .contact-list-mail {
   margin-right: 30px;
