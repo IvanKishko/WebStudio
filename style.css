@@ -64,6 +64,25 @@ body {
 .navigation-list-portfolio:hover {
   color: #2196f3;
 }
+.active-li {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  position: relative;
+}
+.active::after {
+  content: "";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  bottom: 0;
+  width: 48px;
+  height: 4px;
+  left: -1px;
+  border-radius: 2px;
+  background: #2196f3;
+  margin-top: 28px;
+}
 .navigation-list-contacts {
   color: #212121;
   margin-right: 318px;
@@ -458,6 +477,31 @@ body {
   justify-content: center;
   flex-direction: row;
   padding-bottom: 50px;
+}
+.box {
+  position: relative;
+  overflow: hidden;
+}
+.box:hover .overlay {
+  transform: translateX(0);
+}
+.overlay {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.54px;
+  padding: 64px 23px;
+  background: rgba(33, 150, 243, 0.9);
+  width: 370px;
+  height: 294px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translatey(100%);
+  transition: transform 250ms ease;
 }
 .products-list-item-button {
   color: #212121;
