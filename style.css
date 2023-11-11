@@ -22,7 +22,6 @@ body {
   font-weight: 500;
   letter-spacing: 0.28px;
   margin-top: 24px;
-  margin-bottom: 25px;
 }
 .logo-span {
   color: #2196f3;
@@ -49,20 +48,8 @@ body {
 .navigation-list {
   display: flex;
 }
-.navigation-list-studio {
-  color: #212121;
+.navigation-list-item {
   margin-right: 50px;
-}
-.navigation-list-studio:hover {
-  color: #2196f3;
-}
-.navigation-list-portfolio {
-  color: #212121;
-  margin-top: 24px;
-  margin-right: 50px;
-}
-.navigation-list-portfolio:hover {
-  color: #2196f3;
 }
 .active-li {
   display: flex;
@@ -83,9 +70,16 @@ body {
   background: #2196f3;
   margin-top: 28px;
 }
+.navigation-list-a {
+  color: #212121;
+  display: flex;
+}
+.navigation-list-a:hover {
+  color: #2196f3;
+}
 .navigation-list-contacts {
   color: #212121;
-  margin-right: 318px;
+  margin-right: 268px;
 }
 .navigation-list-contacts:hover {
   color: #2196f3;
@@ -110,6 +104,123 @@ body {
 }
 .contact-list-mail {
   margin-right: 30px;
+}
+/** animation styles **/
+@keyframes forItem {
+  0% {
+    transform: skewY(0);
+  }
+  100% {
+    transform: skewY(10deg);
+    animation-play-state: paused;
+  }
+}
+
+@keyframes forButton {
+  0% {
+    transform: translateX(0);
+    transform: scale(1);
+  }
+  100% {
+    transform: translateX(5px);
+    transform: scale(1.25);
+  }
+}
+
+@keyframes bounceHover {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(10px);
+  }
+}
+
+@keyframes changeHeaderScaleHover {
+  0% {
+    transform: rotateX(0);
+    transform: perspective(360deg);
+  }
+  50% {
+    transform: rotateX(90deg);
+    transform: perspective(360deg);
+  }
+  100% {
+    transform: rotateX(0);
+    transform: perspective(360deg);
+  }
+}
+
+@keyframes changeFooterScaleHover {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes rotateRegularCustomers {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(90deg);
+  }
+  100% {
+    transform: rotate(0);
+  }
+}
+
+@keyframes buttonClose {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.75);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes focusModal {
+  0% {
+    transform: skewX(0);
+  }
+  50% {
+    transform: skewX(30deg);
+  }
+  100% {
+    transform: skewX(0);
+  }
+}
+
+@keyframes hoverModal {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.75);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes translate {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
 /** index styles **/
 .banner {
