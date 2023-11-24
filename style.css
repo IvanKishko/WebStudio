@@ -57,7 +57,7 @@ body {
   height: 80px;
   position: relative;
 }
-.active::after {
+.active-li::after {
   content: "";
   position: absolute;
   display: flex;
@@ -69,6 +69,9 @@ body {
   border-radius: 2px;
   background: #2196f3;
   margin-top: 28px;
+}
+.not-active {
+  margin-top: 31px;
 }
 .navigation-list-a {
   color: #212121;
