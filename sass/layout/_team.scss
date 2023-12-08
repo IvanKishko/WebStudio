@@ -1,0 +1,68 @@
+.team-background {
+  background: #f5f4fa;
+  width: 100%;
+}
+.team {
+  margin-top: 94px;
+  padding-top: 94px;
+}
+.team-list {
+  display: flex;
+  font-size: 16px;
+  letter-spacing: 0.48px;
+  justify-content: center;
+}
+.team-list-item {
+  width: 270px;
+  height: 428px;
+  background: #fff;
+  margin-top: 50px;
+  margin-right: 25px;
+  box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  margin-bottom: 94px;
+}
+.team-title {
+  color: #212121;
+  text-align: center;
+  margin-right: 453px;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 1.08px;
+  margin-left: 500px;
+}
+.team-list-member-name {
+  margin-top: 30px;
+  color: #212121;
+  text-align: center;
+  font-weight: 500;
+}
+.team-list-member-work {
+  color: #757575;
+  text-align: center;
+  font-weight: 400;
+}
+.team-list-member-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  column-gap: 10px;
+}
+.team-list-member-list-item {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  fill: #afb1b8;
+}
+.team-list-member-list-item:hover {
+  fill: #ffffff;
+  background-color: #2196f3;
+  animation-name: changeHeaderScaleHover;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  animation-duration: 250ms;
+  background-color: #2196f3;
+}

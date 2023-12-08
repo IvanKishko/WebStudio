@@ -1,0 +1,97 @@
+.box {
+  position: relative;
+  overflow: hidden;
+}
+.box:hover .overlay {
+  transform: translateX(0);
+}
+.overlay {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.55;
+  letter-spacing: 0.54px;
+  padding: 64px 23px;
+  background: rgba(33, 150, 243, 0.9);
+  width: 370px;
+  height: 294px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translatey(100%);
+  transition: transform 250ms ease;
+}
+.products-list-item-button {
+  color: #212121;
+  border-radius: 4px;
+  background: #f5f4fa;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  margin: 8px;
+  width: 112px;
+  height: 38px;
+  border: none;
+}
+.products-list-item-button:hover {
+  color: #fff;
+  background: #2196f3;
+  cursor: pointer;
+  animation-name: forButton;
+  animation-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.selling-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.selling-img {
+  width: 370px;
+  height: 294px;
+}
+.selling-list-item {
+  width: 370px;
+  height: 404px;
+  border: 1px solid #eee;
+  background: #fff;
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.selling-list-item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
+}
+.selling-list-item:nth-child(-n + 3) {
+  margin-top: 50px;
+}
+.selling-list-item:nth-child(3n) {
+  margin-right: 0px;
+}
+.selling-list-item:nth-child(n + 8) {
+  margin-bottom: 94px;
+}
+.selling-product {
+  margin-top: 20px;
+  margin-left: 24px;
+  flex-shrink: 0;
+  color: #212121;
+  font-size: 18px;
+  font-family: "Roboto";
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+}
+.selling-product-type {
+  margin-left: 24px;
+  color: #757575;
+  font-size: 16px;
+  font-family: "Roboto";
+  line-height: 30px;
+  letter-spacing: 0.48px;
+}

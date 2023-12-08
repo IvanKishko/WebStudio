@@ -1,0 +1,30 @@
+.products-list {
+  margin-top: 94px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding-bottom: 50px;
+}
+.products-list-item-button {
+  color: #212121;
+  border-radius: 4px;
+  background: #f5f4fa;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  letter-spacing: 0.48px;
+  border-radius: 4px;
+  margin: 8px;
+  width: 112px;
+  height: 38px;
+  border: none;
+}
+.products-list-item-button:hover {
+  color: #fff;
+  background: #2196f3;
+  cursor: pointer;
+  animation-name: forButton;
+  animation-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}

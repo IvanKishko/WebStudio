@@ -1,0 +1,137 @@
+.footer {
+  height: 252px;
+  background-color: #2f303a;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+.footer-container {
+  display: flex;
+  padding-top: 60px;
+}
+.footer-div {
+  margin-right: 70px;
+}
+.footer-logo-span {
+  color: #2196f3;
+  font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.footer-logo {
+  color: #ffffff;
+  font-size: 26px;
+  font-family: "Raleway";
+  font-weight: 700;
+  letter-spacing: 0.78px;
+}
+.footer-list {
+  width: 231px;
+  height: 81px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  column-gap: 10px;
+}
+.footer-address {
+  margin-bottom: 9px;
+  color: #ffffff;
+  font-family: "Roboto";
+}
+.footer-email {
+  margin-bottom: 9px;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto";
+}
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-family: "Roboto";
+}
+.socials {
+  width: 206px;
+  height: 80px;
+}
+.socials-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+.socials-title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.42px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.socials-list-item {
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.socials-list-item:hover {
+  cursor: pointer;
+  background-color: #2196f3;
+  animation-name: changeScaleHover;
+  animation-duration: 250ms;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-list-item-svg {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 1);
+}
+.footer-form-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+.footer-form-title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 14px;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.footer-form {
+  display: flex;
+}
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(33, 150, 243, 0);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+}
+.footer-form-button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: none;
+  margin-left: 12px;
+}
+.footer-form-button-span {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: 0.96px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
