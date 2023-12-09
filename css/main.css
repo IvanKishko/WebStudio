@@ -747,7 +747,7 @@ body {
 }
 
 .banner {
-  background-image: url(../../img/hero.jpg);
+  background-image: url(../img/hero.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
