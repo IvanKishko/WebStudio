@@ -5,7 +5,7 @@
   flex-direction: row;
   padding-bottom: 50px;
 }
-.products-list-item-button {
+.products-button {
   color: #212121;
   border-radius: 4px;
   background: #f5f4fa;
@@ -20,7 +20,7 @@
   height: 38px;
   border: none;
 }
-.products-list-item-button:hover {
+.products-button:hover {
   color: #fff;
   background: #2196f3;
   cursor: pointer;

@@ -8,14 +8,14 @@
   letter-spacing: 0.28px;
   margin-top: 24px;
 }
-.logo-span {
+.span-header {
   color: #2196f3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 0.78px;
 }
-.logo {
+.header-logo {
   color: #000;
   font-family: "Raleway";
   font-size: 26px;
@@ -23,26 +23,29 @@
   letter-spacing: 0.78px;
   margin-right: 93px;
 }
-.navigation {
+.header-navavigation {
   color: #212121;
   font-size: 14px;
   font-family: "Roboto";
   font-weight: 500;
   letter-spacing: 0.28px;
 }
-.navigation-list {
+.list-header-nav {
   display: flex;
 }
-.navigation-list-item {
+.header-item {
   margin-right: 50px;
 }
-.active-li {
+.header-item:last-child {
+  margin-right: 268px;
+}
+.active {
   display: flex;
   align-items: center;
   height: 80px;
   position: relative;
 }
-.active-li::after {
+.active::after {
   content: "";
   position: absolute;
   display: flex;
@@ -58,31 +61,24 @@
 .not-active {
   margin-top: 31px;
 }
-.navigation-list-a {
+.header-link {
   color: #212121;
   display: flex;
 }
-.navigation-list-a:hover {
+.header-link:hover {
   animation-fill-mode: forwards;
   animation-duration: 250ms;
   animation-name: bounceHover;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: #2196f3;
-}
-.navigation-list-contacts {
-  color: #212121;
-  margin-right: 268px;
-}
-.navigation-list-contacts:hover {
   color: #2196f3;
 }
 .contact-list {
   display: flex;
 }
-.contact-list-item {
+.contact-item {
   display: flex;
 }
-.contact-list-item:hover a {
+.contact-item:hover a {
   color: #2196f3;
   animation-fill-mode: forwards;
   animation-duration: 250ms;
@@ -90,16 +86,16 @@
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   color: #2196f3;
 }
-.contact-list-item:hover svg {
+.contact-item:hover svg {
   fill: #2196f3;
 }
-.contact-list-item-svg {
+.svg-header {
   margin-right: 10px;
 }
-.contact-list a {
+.contact-link {
   color: #757575;
 }
 
-.contact-list-mail {
+.contact-item:first-child {
   margin-right: 30px;
 }

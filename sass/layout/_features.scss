@@ -8,10 +8,10 @@
   display: flex;
   justify-content: center;
 }
-.features li:not(:first-child) {
+.features-item:not(:first-child) {
   margin-left: 30px;
 }
-.features-list-item-div {
+.features-svg-div {
   width: 270px;
   height: 120px;
   border-radius: 4px;
@@ -19,17 +19,17 @@
   display: flex;
   margin-bottom: 30px;
 }
-.features-list-item-svg {
+.svg {
   align-self: center;
   margin-left: 100px;
 }
-.features-list-title {
+.list-features-title {
   color: #212121;
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.features-list-explanation {
+.list-features-explanation {
   color: #757575;
   line-height: 24px;
 }

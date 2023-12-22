@@ -12,7 +12,7 @@
 .footer-div {
   margin-right: 70px;
 }
-.footer-logo-span {
+.footer-span {
   color: #2196f3;
   font-size: 26px;
   font-family: "Raleway";
@@ -67,7 +67,7 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
-.socials-list-item {
+.socials-item {
   width: 44px;
   height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
@@ -76,7 +76,7 @@
   justify-content: center;
   align-items: center;
 }
-.socials-list-item:hover {
+.socials-item:hover {
   cursor: pointer;
   background-color: #2196f3;
   animation-name: changeScaleHover;
@@ -84,17 +84,17 @@
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials-list-item-svg {
+.socials-svg {
   width: 20px;
   height: 20px;
   fill: rgba(255, 255, 255, 1);
 }
-.footer-form-div {
+.footer-div-form {
   display: flex;
   flex-direction: column;
   margin-left: 100px;
 }
-.footer-form-title {
+.footer-title-form {
   color: #fff;
   font-family: "Roboto";
   font-size: 14px;
@@ -105,7 +105,7 @@
 .footer-form {
   display: flex;
 }
-.footer-form-input {
+.footer-input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -114,7 +114,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 15px;
 }
-.footer-form-button {
+.footer-button {
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -123,7 +123,7 @@
   border: none;
   margin-left: 12px;
 }
-.footer-form-button-span {
+.footer-span-form {
   color: #fff;
   text-align: center;
   font-family: "Roboto";

@@ -20,7 +20,7 @@
   display: flex;
   justify-content: center;
 }
-.logos-list-item {
+.logos-item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,13 +29,13 @@
   border-radius: 4px;
   border: 1px solid #afb1b8;
 }
-.logos-list-item svg {
+.logos-item svg {
   fill: #afb1b8;
 }
-.logos-list-item:hover svg {
+.logos-item:hover svg {
   fill: #2196f3;
 }
-.logos-list-item:hover {
+.logos-item:hover {
   border-radius: 4px;
   border: 1px solid #2196f3;
   cursor: pointer;
