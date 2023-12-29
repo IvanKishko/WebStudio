@@ -1,6 +1,6 @@
 .footer {
   height: 252px;
-  background-color: #2f303a;
+  background-color: $bg-footer;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.42px;
@@ -13,7 +13,7 @@
   margin-right: 70px;
 }
 .footer-span {
-  color: #2196f3;
+  color: $hover-color;
   font-size: 26px;
   font-family: "Raleway";
   font-weight: 700;
@@ -35,16 +35,16 @@
 }
 .footer-address {
   margin-bottom: 9px;
-  color: #ffffff;
+  color: $white;
   font-family: "Roboto";
 }
 .footer-email {
   margin-bottom: 9px;
-  color: rgba(255, 255, 255, 0.6);
+  color: $footer-color;
   font-family: "Roboto";
 }
 .footer-tel {
-  color: rgba(255, 255, 255, 0.6);
+  color: $footer-color;
   font-size: 14px;
   font-family: "Roboto";
 }
@@ -59,7 +59,7 @@
   column-gap: 10px;
 }
 .socials-title {
-  color: #fff;
+  color: $white;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;
@@ -70,7 +70,7 @@
 .socials-item {
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: $bg-footer;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -78,7 +78,7 @@
 }
 .socials-item:hover {
   cursor: pointer;
-  background-color: #2196f3;
+  background-color: $hover-color;
   animation-name: changeScaleHover;
   animation-duration: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -87,7 +87,7 @@
 .socials-svg {
   width: 20px;
   height: 20px;
-  fill: rgba(255, 255, 255, 1);
+  fill: $white-rgba;
 }
 .footer-div-form {
   display: flex;
@@ -95,7 +95,7 @@
   margin-left: 100px;
 }
 .footer-title-form {
-  color: #fff;
+  color: $white;
   font-family: "Roboto";
   font-size: 14px;
   line-height: normal;
@@ -109,7 +109,7 @@
   width: 358px;
   height: 50px;
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid $footer-color;
   background: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 15px;
@@ -118,13 +118,13 @@
   width: 200px;
   height: 50px;
   border-radius: 4px;
-  background: #2196f3;
+  background: $hover-color;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   border: none;
   margin-left: 12px;
 }
 .footer-span-form {
-  color: #fff;
+  color: $white;
   text-align: center;
   font-family: "Roboto";
   font-size: 16px;

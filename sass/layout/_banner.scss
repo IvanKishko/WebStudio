@@ -9,7 +9,7 @@
 }
 .banner-title {
   width: 600px;
-  color: #fff;
+  color: $white;
   text-align: center;
   margin-top: 200px;
   margin-bottom: 30px;
@@ -24,8 +24,8 @@
   margin-bottom: 200px;
   font-weight: 700;
   letter-spacing: 0.96px;
-  color: #fff;
-  background-color: #2196f3;
+  color: $white;
+  background-color: $hover-color;
   width: 216px;
   height: 50px;
   cursor: pointer;

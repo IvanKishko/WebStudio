@@ -378,15 +378,15 @@ menu {
   list-style: none;
 }
 
+body {
+  font-family: "Roboto";
+}
+
 .container {
   margin-right: auto;
   margin-left: auto;
   width: 1200px;
   padding: 0 15px;
-}
-
-body {
-  font-family: "Roboto";
 }
 
 @keyframes forItem {
@@ -475,7 +475,6 @@ body {
 }
 
 .span-header {
-  color: #2196f3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -656,7 +655,7 @@ body {
 }
 
 .socials-title {
-  color: #fff;
+  color: #ffffff;
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 700;
@@ -668,7 +667,7 @@ body {
 .socials-item {
   width: 44px;
   height: 44px;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: #2f303a;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -696,7 +695,7 @@ body {
 }
 
 .footer-title-form {
-  color: #fff;
+  color: #ffffff;
   font-family: "Roboto";
   font-size: 14px;
   line-height: normal;
@@ -712,7 +711,7 @@ body {
   width: 358px;
   height: 50px;
   border-radius: 4px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   background: rgba(33, 150, 243, 0);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 15px;
@@ -729,7 +728,7 @@ body {
 }
 
 .footer-span-form {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-family: "Roboto";
   font-size: 16px;
@@ -753,7 +752,7 @@ body {
 
 .banner-title {
   width: 600px;
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   margin-top: 200px;
   margin-bottom: 30px;
@@ -769,7 +768,7 @@ body {
   margin-bottom: 200px;
   font-weight: 700;
   letter-spacing: 0.96px;
-  color: #fff;
+  color: #ffffff;
   background-color: #2196f3;
   width: 216px;
   height: 50px;
@@ -863,7 +862,6 @@ body {
   row-gap: 4px;
   display: flex;
   flex-direction: column;
-  align-items: start;
   position: relative;
   border: none;
 }
@@ -954,7 +952,6 @@ body {
   width: 270px;
   height: 120px;
   border-radius: 4px;
-  background: #f5f4fa;
   display: flex;
   margin-bottom: 30px;
 }
@@ -1013,7 +1010,7 @@ body {
 }
 
 .bg-occupation-text {
-  color: #fff;
+  color: #ffffff;
   text-align: center;
   font-size: 14px;
   font-style: normal;
@@ -1042,7 +1039,7 @@ body {
 .team-item {
   width: 270px;
   height: 428px;
-  background: #fff;
+  background: #ffffff;
   margin-top: 50px;
   margin-right: 25px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
@@ -1178,7 +1175,7 @@ body {
 }
 
 .products-button:hover {
-  color: #fff;
+  color: #ffffff;
   background: #2196f3;
   cursor: pointer;
   animation-name: forButton;
@@ -1196,7 +1193,7 @@ body {
 }
 
 .overlay {
-  color: #fff;
+  color: #ffffff;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.55;
@@ -1229,7 +1226,7 @@ body {
   width: 370px;
   height: 404px;
   border: 1px solid #eee;
-  background: #fff;
+  background: #ffffff;
   margin-right: 30px;
   margin-bottom: 30px;
 }

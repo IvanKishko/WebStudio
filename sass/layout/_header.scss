@@ -9,7 +9,6 @@
   margin-top: 24px;
 }
 .span-header {
-  color: #2196f3;
   font-family: "Raleway";
   font-size: 26px;
   font-weight: 700;
@@ -55,7 +54,7 @@
   height: 4px;
   left: -1px;
   border-radius: 2px;
-  background: #2196f3;
+  background: $hover-color;
   margin-top: 28px;
 }
 .not-active {
@@ -70,7 +69,7 @@
   animation-duration: 250ms;
   animation-name: bounceHover;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  color: #2196f3;
+  color: $hover-color;
 }
 .contact-list {
   display: flex;
@@ -79,7 +78,7 @@
   display: flex;
 }
 .contact-item:hover a {
-  color: #2196f3;
+  color: $hover-color;
   animation-fill-mode: forwards;
   animation-duration: 250ms;
   animation-name: bounceHover;
@@ -87,13 +86,13 @@
   color: #2196f3;
 }
 .contact-item:hover svg {
-  fill: #2196f3;
+  fill: $hover-color;
 }
 .svg-header {
   margin-right: 10px;
 }
 .contact-link {
-  color: #757575;
+  color: $text-color;
 }
 
 .contact-item:first-child {

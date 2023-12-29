@@ -6,9 +6,9 @@
   padding-bottom: 50px;
 }
 .products-button {
-  color: #212121;
+  color: $primary-color;
   border-radius: 4px;
-  background: #f5f4fa;
+  background: $products-btn;
   text-align: center;
   font-size: 16px;
   font-weight: 500;
@@ -21,8 +21,8 @@
   border: none;
 }
 .products-button:hover {
-  color: #fff;
-  background: #2196f3;
+  color: $white;
+  background: $hover-color;
   cursor: pointer;
   animation-name: forButton;
   animation-duration: 250ms;
