@@ -389,16 +389,7 @@ body {
   padding: 0 15px;
 }
 
-@keyframes forItem {
-  0% {
-    transform: skewY(0);
-  }
-  100% {
-    transform: skewY(10deg);
-    animation-play-state: paused;
-  }
-}
-@keyframes forButton {
+@keyframes button {
   0% {
     transform: translateX(0);
     transform: scale(1);
