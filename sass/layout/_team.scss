@@ -13,23 +13,23 @@
   justify-content: center;
 }
 .team-item {
-  width: 270px;
-  height: 428px;
+  //   width: 270px;
+  //   height: 428px;
   background: $white;
-  margin-top: 50px;
-  margin-right: 25px;
+  //   margin-top: 50px;
+  //   margin-right: 25px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
     0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
-  margin-bottom: 94px;
+  //   margin-bottom: 94px;
 }
 .team-title {
   color: $primary-color;
   text-align: center;
-  margin-right: 453px;
+  // margin-right: 453px;
   font-size: 36px;
   font-weight: 700;
   letter-spacing: 1.08px;
-  margin-left: 500px;
+  // margin-left: 500px;
 }
 .list-team-name {
   margin-top: 30px;
@@ -65,4 +65,68 @@
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   animation-duration: 250ms;
   background-color: $hover-color;
+}
+
+@media screen and (min-width: 480px) {
+  .team-img {
+    width: 450px;
+    height: 460px;
+  }
+  .team-item {
+    height: 625px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .team-item {
+    width: 354px;
+    height: 536px;
+  }
+  .team-img {
+    width: 354px;
+    height: 374px;
+  }
+  .team-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .team-item:nth-child(odd) {
+    margin-right: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .team-background {
+    background: $products-btn;
+    width: 100%;
+  }
+  .team {
+    margin-top: 94px;
+    padding-top: 94px;
+  }
+  .team-list {
+    display: flex;
+    font-size: 16px;
+    letter-spacing: 0.48px;
+    justify-content: center;
+  }
+  .team-item {
+    background: $white;
+    width: 270px;
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),
+      0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+  }
+  .team-img {
+    width: 270px;
+  }
+  .team-title {
+    color: $primary-color;
+    text-align: center;
+    margin-right: 453px;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    margin-left: 500px;
+  }
+  .team-item:not(:last-child) {
+    margin-right: 30px;
+  }
 }

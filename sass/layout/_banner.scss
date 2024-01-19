@@ -32,20 +32,7 @@
   height: 50px;
   cursor: pointer;
 }
-@media screen and (min-width: 320px) {
-  .banner {
-    background: #2f303a;
-  }
-  .banner-title {
-    margin-top: 118px;
-    width: 246px;
-    padding-bottom: 30px;
-  }
-  .banner-button {
-    width: 200px;
-    margin-bottom: 118px;
-  }
-}
+
 @media screen and (min-width: 480px) {
   .banner {
     background-image: url(../img/hero.jpg);

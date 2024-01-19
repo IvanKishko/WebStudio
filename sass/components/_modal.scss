@@ -140,3 +140,71 @@
   background: #188ce8;
   cursor: pointer;
 }
+@media (min-width: 480px) {
+  .hero {
+    padding: 118px 60px;
+    width: 480px;
+  }
+  .modal {
+    height: 610px;
+    width: 446px;
+  }
+  .modal-title {
+    text-align: center;
+    line-height: 1.5;
+  }
+  .modal-form-label {
+    width: 370px;
+  }
+  .modal-input {
+    width: 370px;
+  }
+  .modal-text-label {
+    width: 370px;
+    height: 120px;
+  }
+  .modal-text-input {
+    width: 338px;
+    height: 96px;
+  }
+  .modal-checkbox {
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .hero {
+    padding: 118px 204px;
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .modal-title {
+    line-height: normal;
+  }
+  .modal-input {
+    width: 450px;
+  }
+  .modal-label {
+    width: 450px;
+  }
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+  .modal-text-label {
+    width: 448px;
+    height: 120px;
+  }
+  .modal-text-input {
+    width: 416px;
+    height: 96px;
+  }
+  .modal-checkbox {
+    width: 450px;
+  }
+  .modal-send {
+    align-self: center;
+  }
+}

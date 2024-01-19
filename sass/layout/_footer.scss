@@ -135,3 +135,80 @@
   margin-right: 10px;
   margin-bottom: 10px;
 }
+@media (min-width: 480px) {
+  .footer {
+    height: 603px;
+  }
+  .footer-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer-input {
+    width: 450px;
+  }
+  .footer-form {
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-div-form {
+    width: 450px;
+    flex-basis: calc((100% - 15px * 3) / 3);
+  }
+  .footer-container {
+    gap: 0;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .footer-div {
+    margin-right: 165px;
+  }
+  .footer-button {
+    margin-top: 20px;
+  }
+  .footer-form {
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer {
+    height: 252px;
+  }
+  .footer-div {
+    margin-right: 0;
+    align-items: flex-start;
+    text-align: left;
+  }
+  .socials-title {
+    text-align: left;
+  }
+  .footer-label {
+    text-align: left;
+    flex-direction: row;
+    align-items: flex-end;
+  }
+  .footer-input {
+    width: 358px;
+  }
+  .footer-form {
+    flex-wrap: nowrap;
+    display: flex;
+  }
+  .footer-button {
+    width: 200px;
+  }
+  .footer-form {
+    justify-content: normal;
+  }
+  .footer-div-form {
+    margin-left: 12px;
+    width: auto;
+  }
+  .footer-button {
+    margin-top: 0;
+    width: 200px;
+  }
+}

@@ -45,15 +45,6 @@
   box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
     0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
-.selling-item:nth-child(-n + 3) {
-  margin-top: 50px;
-}
-.selling-item:nth-child(3n) {
-  margin-right: 0px;
-}
-.selling-item:nth-child(n + 8) {
-  margin-bottom: 94px;
-}
 .selling-title {
   margin-top: 20px;
   margin-left: 24px;
@@ -72,4 +63,42 @@
   font-family: "Roboto";
   line-height: 30px;
   letter-spacing: 0.48px;
+}
+@media screen and (min-width: 480px) {
+  .selling-item {
+    margin-right: 0px;
+    width: 450px;
+    padding-right: 15px;
+  }
+  .selling-img {
+    width: 450px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .selling-item {
+    padding-right: 0px;
+    width: 354px;
+    height: 440px;
+  }
+  .selling-img {
+    width: 354px;
+  }
+  .selling-title {
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 1.08px;
+  }
+  .selling-type {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.48px;
+  }
+  .selling-item:nth-child(odd) {
+    margin-right: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .selling-item:not(:nth-child(3n)) {
+    margin-right: 30px;
+  }
 }

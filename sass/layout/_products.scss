@@ -2,7 +2,6 @@
   margin-top: 94px;
   display: flex;
   justify-content: center;
-  flex-direction: row;
   padding-bottom: 50px;
 }
 .products-button {
@@ -27,4 +26,16 @@
   animation-name: forButton;
   animation-duration: 250ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+@media screen and (min-width: 480px) {
+  .products-list {
+    flex-wrap: wrap;
+    justify-content: normal;
+  }
+}
+@media screen and (min-width: 768px) {
+  .products-list {
+    flex-wrap: nowrap;
+    justify-content: center;
+  }
 }
