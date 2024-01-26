@@ -68,12 +68,22 @@
 }
 
 @media screen and (min-width: 480px) {
+  .team-list {
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  .team-item {
+    margin-bottom: 30px;
+  }
   .team-img {
     width: 450px;
     height: 460px;
   }
   .team-item {
     height: 625px;
+  }
+  .team-title {
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -102,11 +112,15 @@
     margin-top: 94px;
     padding-top: 94px;
   }
+  .team-title {
+    margin-bottom: 50px;
+  }
   .team-list {
     display: flex;
     font-size: 16px;
     letter-spacing: 0.48px;
     justify-content: center;
+    padding-bottom: 94px;
   }
   .team-item {
     background: $white;

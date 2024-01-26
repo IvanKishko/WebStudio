@@ -45,19 +45,25 @@
 }
 
 @media screen and (min-width: 480px) {
-  .logos-item {
-    width: 210px;
-    height: 92px;
+  .logos-list {
+    flex-wrap: wrap;
+    align-items: center;
   }
   .logos-item:nth-child(odd) {
     margin-right: 30px;
+  }
+  .logos-item {
     margin-bottom: 30px;
+    width: 210px;
+    height: 97px;
   }
   .logos-item svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 50px;
+    width: 106px;
+    height: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -71,6 +77,10 @@
   }
 }
 @media screen and (min-width: 1200px) {
+  .logos-title {
+    font-size: 36px;
+    letter-spacing: 1.08px;
+  }
   .logos-list {
     column-gap: 30px;
     display: flex;

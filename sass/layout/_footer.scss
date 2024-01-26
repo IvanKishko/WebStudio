@@ -9,9 +9,6 @@
   display: flex;
   padding-top: 60px;
 }
-.footer-div {
-  margin-right: 70px;
-}
 .footer-span {
   color: $hover-color;
   font-size: 26px;
@@ -89,11 +86,6 @@
   height: 20px;
   fill: $white-rgba;
 }
-.footer-div-form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-}
 .footer-title-form {
   color: $white;
   font-family: "Roboto";
@@ -139,9 +131,29 @@
   .footer {
     height: 603px;
   }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .footer-wrap {
     flex-direction: column;
     align-items: center;
+  }
+  .footer-div {
+    text-align: center;
+  }
+  .socials {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .footer-div-form {
+    text-align: center;
+  }
+  .footer-button {
+    margin-left: 140px;
+    margin-top: 30px;
   }
   .footer-input {
     width: 450px;
@@ -167,6 +179,7 @@
   }
   .footer-button {
     margin-top: 20px;
+    margin-left: 0px;
   }
   .footer-form {
     justify-content: center;
@@ -177,13 +190,19 @@
   .footer {
     height: 252px;
   }
+  .footer-container {
+    font-display: row;
+  }
   .footer-div {
-    margin-right: 0;
+    margin-right: 70px;
     align-items: flex-start;
     text-align: left;
   }
   .socials-title {
     text-align: left;
+  }
+  .socials {
+    margin-right: 80px;
   }
   .footer-label {
     text-align: left;
@@ -192,6 +211,9 @@
   }
   .footer-input {
     width: 358px;
+  }
+  .footer-div-form {
+    padding-bottom: 65px;
   }
   .footer-form {
     flex-wrap: nowrap;
@@ -204,11 +226,11 @@
     justify-content: normal;
   }
   .footer-div-form {
-    margin-left: 12px;
     width: auto;
   }
   .footer-button {
     margin-top: 0;
     width: 200px;
+    margin-left: 12px;
   }
 }

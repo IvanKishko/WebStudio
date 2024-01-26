@@ -385,23 +385,18 @@ body {
 .container {
   margin-right: auto;
   margin-left: auto;
-  width: 1200px;
+  min-width: 320px;
   padding: 0 15px;
 }
 
-@media screen and (min-width: 320px) {
-  .container {
-    width: 320px;
-  }
-}
 @media screen and (min-width: 480px) {
   .container {
     width: 480px;
   }
 }
-@media screen and (min-width: 760px) {
+@media screen and (min-width: 768px) {
   .container {
-    width: 760px;
+    width: 768px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -500,16 +495,18 @@ body {
   align-self: flex-start;
 }
 
+.header-nav {
+  display: none;
+}
+
+.contact-list {
+  display: none;
+}
+
 @media screen and (min-width: 480px) {
   .header {
     display: flex;
     justify-content: space-between;
-  }
-  .header-item {
-    display: none;
-  }
-  .contact-item {
-    display: none;
   }
   .header-btn-div {
     padding-top: 10px;
@@ -532,9 +529,15 @@ body {
   .list-header-nav {
     display: flex;
   }
-  .header-item {
+  .header-nav {
     display: inherit;
     margin-right: 50px;
+  }
+  .header-nav {
+    display: normal;
+  }
+  .contact-list {
+    display: normal;
   }
   .header-item:last-child {
     margin-right: 70px;
@@ -613,7 +616,7 @@ body {
     margin-right: 50px;
   }
   .header-item:last-child {
-    margin-right: 268px;
+    margin-right: 250px;
   }
   .active {
     display: flex;
@@ -687,10 +690,6 @@ body {
 .footer-container {
   display: flex;
   padding-top: 60px;
-}
-
-.footer-div {
-  margin-right: 70px;
 }
 
 .footer-span {
@@ -783,12 +782,6 @@ body {
   fill: rgb(255, 255, 255);
 }
 
-.footer-div-form {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
-}
-
 .footer-title-form {
   color: #ffffff;
   font-family: "Roboto";
@@ -839,9 +832,29 @@ body {
   .footer {
     height: 603px;
   }
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   .footer-wrap {
     flex-direction: column;
     align-items: center;
+  }
+  .footer-div {
+    text-align: center;
+  }
+  .socials {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .footer-div-form {
+    text-align: center;
+  }
+  .footer-button {
+    margin-left: 140px;
+    margin-top: 30px;
   }
   .footer-input {
     width: 450px;
@@ -866,6 +879,7 @@ body {
   }
   .footer-button {
     margin-top: 20px;
+    margin-left: 0px;
   }
   .footer-form {
     justify-content: center;
@@ -875,13 +889,19 @@ body {
   .footer {
     height: 252px;
   }
+  .footer-container {
+    font-display: row;
+  }
   .footer-div {
-    margin-right: 0;
+    margin-right: 70px;
     align-items: flex-start;
     text-align: left;
   }
   .socials-title {
     text-align: left;
+  }
+  .socials {
+    margin-right: 80px;
   }
   .footer-label {
     text-align: left;
@@ -890,6 +910,9 @@ body {
   }
   .footer-input {
     width: 358px;
+  }
+  .footer-div-form {
+    padding-bottom: 65px;
   }
   .footer-form {
     flex-wrap: nowrap;
@@ -902,16 +925,16 @@ body {
     justify-content: normal;
   }
   .footer-div-form {
-    margin-left: 12px;
     width: auto;
   }
   .footer-button {
     margin-top: 0;
     width: 200px;
+    margin-left: 12px;
   }
 }
 .banner {
-  background-image: url(../img/hero.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/hero.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1236,6 +1259,15 @@ body {
   .svg {
     margin-left: 190px;
   }
+  .features-list {
+    flex-wrap: wrap;
+  }
+  .list-features-title {
+    text-align: center;
+  }
+  .list-features-explanation:not(:last-child) {
+    margin-bottom: 30px;
+  }
 }
 @media screen and (min-width: 768px) {
   .features-list {
@@ -1410,12 +1442,22 @@ body {
 }
 
 @media screen and (min-width: 480px) {
+  .team-list {
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+  }
+  .team-item {
+    margin-bottom: 30px;
+  }
   .team-img {
     width: 450px;
     height: 460px;
   }
   .team-item {
     height: 625px;
+  }
+  .team-title {
+    margin-bottom: 30px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1444,11 +1486,15 @@ body {
     margin-top: 94px;
     padding-top: 94px;
   }
+  .team-title {
+    margin-bottom: 50px;
+  }
   .team-list {
     display: flex;
     font-size: 16px;
     letter-spacing: 0.48px;
     justify-content: center;
+    padding-bottom: 94px;
   }
   .team-item {
     background: #ffffff;
@@ -1519,19 +1565,25 @@ body {
 }
 
 @media screen and (min-width: 480px) {
-  .logos-item {
-    width: 210px;
-    height: 92px;
+  .logos-list {
+    flex-wrap: wrap;
+    align-items: center;
   }
   .logos-item:nth-child(odd) {
     margin-right: 30px;
+  }
+  .logos-item {
     margin-bottom: 30px;
+    width: 210px;
+    height: 97px;
   }
   .logos-item svg {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 30px;
+    margin-left: 50px;
+    width: 106px;
+    height: 60px;
   }
 }
 @media screen and (min-width: 768px) {
@@ -1545,6 +1597,10 @@ body {
   }
 }
 @media screen and (min-width: 1200px) {
+  .logos-title {
+    font-size: 36px;
+    letter-spacing: 1.08px;
+  }
   .logos-list {
     -moz-column-gap: 30px;
          column-gap: 30px;

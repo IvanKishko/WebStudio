@@ -97,17 +97,17 @@
 // .contact-item:first-child {
 //   margin-right: 30px;
 // }
+.header-nav {
+  display: none;
+}
+.contact-list {
+  display: none;
+}
 
 @media screen and (min-width: 480px) {
   .header {
     display: flex;
     justify-content: space-between;
-  }
-  .header-item {
-    display: none;
-  }
-  .contact-item {
-    display: none;
   }
   .header-btn-div {
     padding-top: 10px;
@@ -130,9 +130,15 @@
   .list-header-nav {
     display: flex;
   }
-  .header-item {
+  .header-nav {
     display: inherit;
     margin-right: 50px;
+  }
+  .header-nav {
+    display: normal;
+  }
+  .contact-list {
+    display: normal;
   }
   .header-item:last-child {
     margin-right: 70px;
@@ -211,7 +217,7 @@
     margin-right: 50px;
   }
   .header-item:last-child {
-    margin-right: 268px;
+    margin-right: 250px;
   }
   .active {
     display: flex;
